@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forulário</title>
+    <h1>Login</h1>
+</head>
+<body>
+    <header></header>
+    <main>
+        <form name="Formulário">
+            <div>
+                <p> <label for="usuario">Digite seu usuário</label>
+                    <input id="usuario" type="text" name="Nome de usuário" required>
+                </p>
+            
+                <p> <label for="password">Digite sua senha</label>
+                    <input id="password" type="password" required>
+                </p>
+            </div>
+            <button type="reset">Limpar dados</button>
+            <button type="submit" name="button"><a href="Untitled-1.html">Enviar</a></button>
+        </form>
+    </main>
+    
+    <footer>
+    
+    </footer>
+</body>
+</html>
