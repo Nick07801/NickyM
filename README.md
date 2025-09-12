@@ -1,3 +1,6 @@
+'''Atividade em Python: Login e Senha'''
+
+# Usuários
 usuarios = { "nicole": "0123",
             "henrique": "4567",
             "everton": "8910",
@@ -6,10 +9,12 @@ usuarios = { "nicole": "0123",
             "mikael": "7219"
             }
 
+# Valores de Entrada 
 def login():
     login = input("Digite seu login:  ")
     senha = input("Digite sua senha:  ")
 
+# Valores de saída
     if login in usuarios and usuarios[login] == senha:
         print ("Acesso concedido")
         return True
@@ -17,7 +22,7 @@ def login():
         print ("Acesso negado")
         return False
     
-
+# Loop
 while True:
     if login ():
         sair = input("Digite 'sair' para encerrar: ")
