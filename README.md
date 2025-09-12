@@ -8,12 +8,10 @@ usuarios = { "nicole": "0123",
             "mauricio": "9625",
             "mikael": "7219"
             }
-
 # Valores de Entrada 
 def login():
     login = input("Digite seu login:  ")
     senha = input("Digite sua senha:  ")
-
 # Valores de saída
     if login in usuarios and usuarios[login] == senha:
         print ("Acesso concedido")
@@ -21,7 +19,6 @@ def login():
     else:
         print ("Acesso negado")
         return False
-    
 # Loop
 while True:
     if login ():
