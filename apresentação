@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MySQL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lexend&family=Manrope&family=Roboto+Mono:ital,wght@0,500;1,500&family=Spline+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <section>
+    <div class="i1"></div>
+  </section>
+ 
+  <header>
+    <h1 id="titulo">MySQL: Sistema de gerenciamento de Banco de dados</h1>
+  </header>
+ 
+  <main>
+    <section>
+      <div class="di" id="d1">
+        <h2>O que é o MySQL?</h2>
+        <p>
+          O <strong>MySQL</strong> é um Sistema de Gerenciamento de Banco de Dados Relacional (RDBMS) de código aberto, criado em <strong>1995</strong> por 
+          desenvolvedores suecos. Ele permite <strong>armazenar, organizar e acessar</strong> dados estruturados de forma eficiente.<br>
+          O funcionamento do MySQL segue o modelo <strong>cliente-servidor</strong>. Isso significa que um aplicativo (como um site ou sistema) envia comandos 
+          para o servidor MySQL, que processa esses comandos e retorna os dados solicitados.
+        </p>
+      </div>
+    </section>
+ 
+    <section>
+        <div class="di" id="d3">
+          <h2>Relevância e participação do MySQL no cenário atual da tecnologia</h2>
+          <p>
+            <strong>MySQL</strong> é mantido pela <strong>Oracle</strong> e amplamente usado em <strong>aplicações web</strong>. Destaca-se pela <strong>simplicidade</strong>, <strong>comunidade ativa</strong> e <strong>vasto ecossistema</strong>.<br>
+            Em <strong>2025</strong>, ocupa o <strong>2º lugar</strong> no ranking <strong>DB-Engines</strong>. Cerca de <strong>41%</strong> dos desenvolvedores utilizam <strong>MySQL</strong>, segundo a <strong>Stack Overflow Survey</strong>. 
+            É oferecido em serviços como <strong>AWS RDS</strong>, <strong>Google Cloud SQL</strong> e <strong>Azure Database</strong>.
+
+          </p>
+          <h3>Principais recursos técnicos:</h3>
+          <ul>
+            <li>InnoDB com transações ACID e recuperação de falhas.</li>
+            <li>Suporte a SQL moderno: CTEs, window functions, procedures.</li>
+            <li>JSON nativo e consultas semiestruturadas.</li>
+            <li>Replicação assíncrona e Group Replication.</li>
+            <li>Ferramentas como MySQL Shell, Router e Workbench.</li>
+          </ul>
+        </div>
+      </section>
+
+    <section>
+      <div class="di" id="d2">
+        <h2>Principais usos e aplicações do MySQL no mercado</h2>
+        <p>
+          O MySQL é amplamente utilizado no desenvolvimento web, sendo o banco de dados padrão de sistemas como WordPress, Joomla e Drupal.
+          
+        </p>
+      </div>
+ 
+      <div class="bloco-container">
+        <div class="bloco1">
+          <p><strong>E-COMMERCE</strong></p>
+          <span>
+            O sistema realiza o <strong>armazenamento</strong> de informações relacionadas a <strong>produtos</strong>, <strong>clientes</strong>, 
+            <strong>pedidos</strong> e <strong>transações</strong>. Um exemplo prático é o <strong>Magento</strong>, 
+            que utiliza o banco de dados <strong>MySQL</strong> para gerenciar <strong>catálogos de produtos</strong> e <strong>históricos de pedidos</strong>. 
+            Esse tipo de estrutura oferece <strong>alta performance</strong>, 
+            sendo ideal para lidar com <strong>grandes volumes de dados</strong> de forma eficiente.            
+        </span>
+        </div>
+ 
+        <div class="bloco1">
+          <p><strong>APLICATIVOS MÓVEIS</strong></p>
+          <span>
+            A <strong>sincronização de dados</strong> entre o <strong>aplicativo</strong> e o <strong>servidor</strong> é essencial para garantir o 
+            <strong>funcionamento eficiente</strong> de diversas plataformas. 
+            Isso é especialmente importante em apps de <strong>delivery</strong>, <strong>redes sociais</strong> e <strong>bancos digitais</strong>, onde a 
+            <strong>troca de informações</strong> precisa ser constante e precisa. 
+            Esses sistemas permitem <strong>atualizações em tempo real</strong> e suportam <strong>múltiplas conexões simultâneas</strong>, garantindo uma 
+            <strong>experiência fluida</strong> e <strong>confiável</strong> para os usuários.            
+            </span>
+        </div>
+ 
+        <div class="bloco1">
+          <p><strong>GERENCIAMENTO DE CONTEÚDO</strong></p>
+          <span>
+            Ao contrário dos <strong>bancos de dados de documentos</strong> de finalidade única, o <strong>MySQL</strong> ativa <strong>SQL</strong> e 
+            <strong>NoSQL</strong> com um único banco de dados.
+            O <strong>Armazenamento de Documentos MySQL</strong> permite operações <strong>CRUD</strong> e usa o poder do <strong>SQL</strong> para consultar dados 
+            de <strong>documentos JSON</strong> para <strong>relatórios</strong> e <strong>análises</strong>.
+            </span>
+        </div>
+      </div>
+
+    </section>
+ 
+    <section>
+      <div class="di" id="d4">
+        <h2>Custos e licenciamento</h2>
+        <p>
+          O MySQL possui diferentes opções de licenciamento e custos, dependendo do uso pretendido (comercial ou não), da edição escolhida e da infraestrutura onde 
+          será hospedado.<br>
+          A <strong>edição gratuita (Community Edition)</strong> não tem custo de licenciamento. <strong>Versões comerciais</strong> da Oracle variam de <strong>US$ 2.140</strong> a mais de <strong>US$ 21.000</strong> por servidor.<br>
+          Em <strong>nuvem</strong>, como <strong>Oracle HeatWave</strong>, os custos são mensais e proporcionais ao uso. <strong>Pequenas configurações</strong> custam cerca de <strong>US$ 127/mês</strong>, enquanto ambientes maiores 
+          podem ultrapassar US$ 9.900/mês.
+        </p>
+      </div>
+    </section>
+ 
+    <section>
+      <div class="di" id="d6">
+        <h2>Empresas e organizações que utilizam o MySQL</h2>
+        <h3>Empresas de tecnologia</h3>
+        <p>Diversas empresas e organizações utilizam o MySQL como sistema de gerenciamento de banco de dados devido à sua confiabilidade, 
+          escalabilidade e por ser uma solução de código aberto. Aqui estão alguns exemplos notáveis:</p>
+        <ul>
+          <li><strong>Facebook, Twitter (X), LinkedIn</strong> e <strong>YouTube</strong> usam MySQL para gerenciar dados de usuários.</li>
+          <li><strong>Netflix, Spotify</strong> e <strong>Google</strong> também utilizam MySQL em partes da infraestrutura.</li>
+        </ul>
+
+        <h3>Organizações governamentais e institucionai</h3>
+        <uL>
+          <li><strong>NASA</strong>, <strong>U.S. Army</strong> e o <strong>Federal Reserve Bank</strong> dos EUA confiam no <strong>MySQL</strong> para 
+            <strong>armazenar</strong> e <strong>consultar dados estratégicos</strong>.
+          </li>
+          <li>No Brasil, empresas como <strong>Dataprev</strong> e <strong>Banco Bradesco</strong> também adotam o <strong>MySQL</strong>.</li>
+        </uL>
+      </div>
+
+    </section>
+ 
+    <section>
+  <div class="di" id="d5">
+    <h2 id="pontos_interessantes">Pontos interessantes</h2>
+ 
+    <div class="bloco-carrossel">
+  <div class="frases-container">
+    <div class="frase">
+      Possui uma comunidade ativa, com muitos tutoriais, fóruns e materiais disponíveis. Isso facilita a resolução de problemas e o aprendizado contínuo.
+      </div>
+    <div class="frase">O MySQL é distribuído sob a licença GNU GPL, o que significa que você pode usá-lo
+      gratuitamente para fins pessoais e comerciais. Também existem versões comerciais com suporte adicional.</div>
+    <div class="frase">O MySQL oferece funcionalidades como replicação, clustering, suporte a JSON,
+      autenticação via SSL e permissões granulares. Isso permite criar aplicações complexas com alta disponibilidade e segurança.</div>
+  </div>
+  <div class="pontos-container">
+    <span class="ponto" onclick="mostrarFrase(0)"></span>
+    <span class="ponto" onclick="mostrarFrase(1)"></span>
+    <span class="ponto" onclick="mostrarFrase(2)"></span>
+  </div>
+</div>
+ 
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    max-width: 2000px;
+    margin: auto;
+  }
+
+  header {
+    background-color: #1f4e79;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+  }
+
+  #titulo {
+    font-size: 2.5em;
+    font-family: 'Spline Sans';
+    margin: 0;
+  }
+
+  .i1 {
+    width: 100%;
+    height: 850px;
+    background-color: #666;
+    background-image: url('imagens/mysql-root.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+
+  main {
+    padding: 40px 20px;
+  }
+
+  .di {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+
+  h2 {
+    color: #1f4e79;
+    font-family: 'Lexend';
+    font-size: 30px;
+  }
+
+  h3{
+    font-size: 25px;
+  }
+  .bloco-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .u1 {
+    font-size: 30px;
+  }
+
+  .bloco1 {
+    background-color: #6cd8ff;
+    color: #1f4e79;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+
+  footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  #pontos_interessantes {
+    text-align: center;
+    font-family: 'Bree Serif';
+    font-size: 40px;
+  }
+
+
+  span {
+    font-size: 18px;
+    color: black;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 24PX;
+  }
+
+  .p1 {
+    font-family: 'Manrope';
+  }
+
+  a {
+    font-family: 'Bree Serif';
+  }
+
+  .bloco-carrossel {
+    max-width: 500px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #6cd8ff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .frases-container {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .frase {
+    flex: 0 0 100%;
+    font-size: 1.5em;
+    color: #333;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+ 
+  .frase.ativa {
+    display: flex;
+  }
+ 
+  .pontos-container {
+    margin-top: 20px;
+  }
+ 
+  .ponto {
+    height: 12px;
+    width: 12px;
+    margin: 0 6px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+ 
+  .ponto.ativo {
+    background-color: #333;
+  }
+</style>
+ 
+<script>
+  const frases = document.querySelectorAll('.frase');
+  const pontos = document.querySelectorAll('.ponto');
+ 
+  function mostrarFrase(indice) {
+    frases.forEach(f => f.classList.remove('ativa'));
+    pontos.forEach(p => p.classList.remove('ativo'));
+    frases[indice].classList.add('ativa');
+    pontos[indice].classList.add('ativo');
+  }
+ 
+  // Inicializa com a primeira frase visível
+  mostrarFrase(0);
+</script>
+      </main>
+      <footer>
+        <section class="b1">
+          <div>
+            <p class="p1"><strong>GRUPO</strong></p>
+            <ul>
+              <li>Nicole Moura</li>
+              <li>Everton de Souza</li>
+              <li>Henrique leite</li>
+              <li>Maurício Matheus</li>
+              <li>Kauan Neves</li>
+            </ul>
+          </div>
+        </section>
+ 
+        <setion>
+          <div>
+            <p class="p1"><strong>Fontes</strong></p>
+            <ul>
+              <li><a href="https://webhosting.de/pt_br/guia-do-banco-de-dados-mysql/" target="_blank">MySQL: Funções, vantagens e aplicações do popular banco de dados -
+                webhosting</a></li>
+              <li><a href="https://hospedagensdesite.com.br/glossario/o-que-e-uso-de-mysql/" target="_blank">Hospedagem de sites</a></li>
+              <li><a href="https://www.oracle.com/br/mysql/what-is-mysql/" target="_blank">MySQL: Entendendo o que é e como é usado | Oracle Brasil</a></li>
+              <li><a href="https://www.devmedia.com.br/introducao-ao-mysql/27799" target="_blank">Introdução ao MySQL: Principais características desse SGBD - DevMedia</a></li>
+              <li><a href="https://www.oracle.com/mysql/pricing/?utm_source=chatgpt.com" target="_blank">HeatWave MySQL Pricing on OCI & AWS | Oracle</a></li>
+              <li><a href="https://admodumcompliance.com/oracle-license-models-unpacked-for-isvs-procurement/?utm_source=chatg… target="_blank>Oracle License Models Unpacked for ISVs & Procurement</a></li>
+              <li><a href="https://www.pcworld.com/article/504526/article-3141.html?utm_source=chatgpt.com" target="_blank">Oracle Raises Cost of Low-end MySQL Support | PCWorld</a></li>
+              <li><a href="https://dev.to/iamthiago/mysql-o-banco-de-dados-relacional-que-revoluciona-aplicacoes-43fg" target="_blank">MySQL: O Banco de Dados Relacional que Revoluciona Aplicações - DEV Community</a></li>
+            </ul>
+          </div>
+        </setion>
+      </footer>
+  </body>
+</html>
