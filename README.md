@@ -1,7 +1,7 @@
 # Boas vindas ao meu Perfil
 
 Meu nome é Nicole Moura
-- Sou estudante no [Senac](https://www.sp.senac.br/)
+- Sou estudante do [Senac](https://www.sp.senac.br/)
 - Utilizo esse espaço para minha organização e compartilhamentos dos meus projetos desenvolvidos
 
 ### Você pode entrar em contato comigo 📫
